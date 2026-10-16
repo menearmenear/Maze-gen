@@ -1,0 +1,2 @@
+scoreboard players enable @s mz_custom_wallh
+tellraw @s ["",{"text":"[Maze Gen] ","color":"gold"},{"text":"Wall height: type in chat ","color":"gray"},{"text":"/trigger mz_custom_wallh set <number>","color":"green","click_event":{"action":"suggest_command","command":"/trigger mz_custom_wallh set "},"hover_event":{"action":"show_text","value":"Click to insert the command"}},{"text":"  (1-16, current ","color":"gray"},{"score":{"name":"#global","objective":"mz_wallh"},"color":"aqua"},{"text":")","color":"gray"}]

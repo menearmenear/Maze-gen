@@ -1,0 +1,1 @@
+$fill ~$(x0) ~$(y0) ~$(z0a) ~$(x1) ~$(y1) ~$(z1a) minecraft:air replace $(tag)

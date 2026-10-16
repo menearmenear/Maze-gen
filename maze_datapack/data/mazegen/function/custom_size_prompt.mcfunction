@@ -1,0 +1,2 @@
+scoreboard players enable @s mz_custom_size
+tellraw @s ["",{"text":"[Maze Gen] ","color":"gold"},{"text":"Maze width (X): type in chat ","color":"gray"},{"text":"/trigger mz_custom_size set <number>","color":"green","click_event":{"action":"suggest_command","command":"/trigger mz_custom_size set "},"hover_event":{"action":"show_text","value":"Click to insert the command"}},{"text":"  (8-100000, current ","color":"gray"},{"score":{"name":"#global","objective":"mz_size"},"color":"aqua"},{"text":")","color":"gray"}]

@@ -1,0 +1,2 @@
+scoreboard players enable @s mz_custom_wallt
+tellraw @s ["",{"text":"[Maze Gen] ","color":"gold"},{"text":"Wall thickness: type in chat ","color":"gray"},{"text":"/trigger mz_custom_wallt set <number>","color":"green","click_event":{"action":"suggest_command","command":"/trigger mz_custom_wallt set "},"hover_event":{"action":"show_text","value":"Click to insert the command"}},{"text":"  (1-4, current ","color":"gray"},{"score":{"name":"#global","objective":"mz_wallt"},"color":"aqua"},{"text":")","color":"gray"}]

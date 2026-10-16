@@ -1,0 +1,2 @@
+scoreboard players enable @s mz_custom_height
+tellraw @s ["",{"text":"[Maze Gen] ","color":"gold"},{"text":"Custom maze height (Z): type in chat ","color":"gray"},{"text":"/trigger mz_custom_height set <number>","color":"green","click_event":{"action":"suggest_command","command":"/trigger mz_custom_height set "},"hover_event":{"action":"show_text","value":"Click to insert the command"}},{"text":"  (8-100000, current ","color":"gray"},{"score":{"name":"#global","objective":"mz_height"},"color":"aqua"},{"text":")","color":"gray"}]
